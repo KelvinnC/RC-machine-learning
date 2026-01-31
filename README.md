@@ -1,4 +1,4 @@
-# Deep Learning Self-Driving RC Car
+# TRAX. A Deep Learning Self-Driving RC Car
 
 A deep learning system for a self driving RC car. The system collects driving data via a controller, trains a CNN to predict steering and throttle from camera images, and deploys the model for driving.
 
