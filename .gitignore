@@ -1,0 +1,50 @@
+# Data - too large
+*.csv
+images/
+data/
+plots/
+output/
+
+# Model weights - large binaries, can regenerate
+*.pt
+*.onnx
+*.h5
+*.keras
+*.tflite
+pytorch_models/
+tensorflow_models/
+
+# Training logs - can regenerate
+*.log
+gpu_batch_log.csv
+
+# Jupyter
+.ipynb_checkpoints/
+Untitled.ipynb
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# IDE
+.idea/
+.claude/
+
+# Scripts - keep only controller-experiment, init, loggerexperiemnt
+python_scripts/controller.py
+python_scripts/controller1-ada.py
+python_scripts/logger.py
+python_scripts/pca.py
+python_scripts/other.ipynb
+python_scripts/other/
+
+# Notebooks - not needed in repo
+pytorch_notebooks/
+tensorflow_notebooks/
+test_pt_model.ipynb
+train_pt_ram_gpu.ipynb
+
+# Others
+wsl.txt
